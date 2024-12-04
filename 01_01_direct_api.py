@@ -4,6 +4,7 @@ from openai import OpenAI
 from dotenv import load_dotenv, find_dotenv
 _ = load_dotenv(find_dotenv()) 
 
+# test comment
 client = OpenAI(
   organization=os.environ['OPENAI_ORG'],
   api_key=os.environ['OPENAI_API_KEY']
